@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(204, 198, 198);
+    margin: 10px;
+}
+
+.header {
+    padding: 60px;
+    text-align: center;
+    color: black;
+    background-color: white;
+}
+
+.nav {
+    display: flex;
+    background-color: rgb(48, 47, 47);
+}
+
+.nav a {
+    color: white;
+    padding: 17px 20px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.nav a:hover {
+    color: black;
+    background-color: rgb(221, 221, 221);
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    background-color: rgb(204, 198, 198);
+    gap: 10px;
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 2;
+    background-color: rgb(204, 198, 198);
+    gap: 10px;
+}
+
+.r1 {
+    background-color: white;
+    padding: 20px;
+}
+
+.r2 {
+    background-color: white;
+    padding: 20px;
+}
+
+.side {
+    display: flex;
+    flex-grow: 1;
+    background-color: rgb(204, 198, 198);
+    flex-direction: column;
+    gap: 10px;
+}
+
+.c1 {
+    padding: 20px;
+    background-color: white;
+}
+
+.c2 {
+    padding: 20px;
+    background-color: white;
+}
+
+.c3 {
+    padding: 20px;
+    background-color: white;
+}
+
+.footer {
+    margin-top: 10px;
+    padding: 10px;
+    color: black;
+    text-align: center;
+    background-color: rgb(221, 221, 221);
+}
+
+.imgg {
+    background-color: rgb(153, 153, 153);
+    color: black;
+    text-align: start;
+    padding: 5px;
+}
